@@ -1,31 +1,33 @@
 # Desafio Lógica
+Desafio feito para o desafio de lógica da disciplina de Lógica para programação, para buildar e executar o projeto só pode ser feito via comando, ou se existir um deploy via, github, vercel, amazon...
+percebo que são as opções mais viaveis para demonstrar o projeto, mas outras também são possíveis e podem ser utilizadas. 
 
-## Clonar o repositório: Abra o terminal e execute o comando:
+#### 1. Clonar o repositório: Abra o terminal e execute o comando:
 
 ```bash
 git clone https://github.com/Cauatn/desafio-logica.git
-```
-
-## Acessar o diretório do projeto:
-
-```bash
-Copiar
 cd desafio-logica
-Instalar as dependências: Certifique-se de que você tem o Node.js instalado. Em seguida, execute:
 ```
 
-## Instalar as dependências: Certifique-se de que você tem o Node.js instalado. Em seguida, execute:
+#### 2. Instalar as dependências: Certifique-se de que você tem o Node.js instalado. Em seguida, execute:
 
 ```bash
-Copiar
 npm install
-Executar o projeto: Após a instalação das dependências, inicie o projeto com:
 ```
 
-## Executar o projeto: Após a instalação das dependências, inicie o projeto com:
+#### 3. Executar o projeto: Após a instalação das dependências, inicie o projeto com:
 
 ```bash
-Editar
 npm start
-Testar o projeto: Para garantir que tudo está funcionando corretamente, execute:
+```
+
+## Criar build do projeto
+Para criar uma build no projeto para executar posteriomente use os seguintes comandos:
+```bash
+npm run build
+```
+
+Para executar 
+```bash
+npm exec vite preview
 ```
