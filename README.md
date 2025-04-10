@@ -18,7 +18,7 @@ npm install
 #### 3. Executar o projeto: Após a instalação das dependências, inicie o projeto com:
 
 ```bash
-npm start
+npm run dev
 ```
 
 ## Criar build do projeto
